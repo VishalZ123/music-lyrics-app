@@ -5,6 +5,7 @@ import 'package:http/http.dart' as http;
 
 const String API_KEY = 'YOUR_API_KEY_HERE';
 const String BASE_URL = 'https://api.musixmatch.com/ws/1.1/';
+// API-A
 String chartTracksUrl = '${BASE_URL}chart.tracks.get?apikey=$API_KEY';
 
 class TrendingTrackBLoC {
@@ -53,9 +54,11 @@ class TrackBLoC {
 
   int trackId;
   TrackBLoC({required this.trackId}) {
+    // API-B
     String trackUrl = '${BASE_URL}track.get?track_id=$trackId&apikey=$API_KEY';
     getTrack(trackUrl);
 
+    // API-C
     String trackLyricsUrl =
         '${BASE_URL}track.lyrics.get?track_id=$trackId&apikey=$API_KEY';
     getTrackLyrics(trackLyricsUrl);

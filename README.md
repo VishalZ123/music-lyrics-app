@@ -12,11 +12,11 @@ The main features of the app are as follows:
 - The App is made using the **bloc pattern**.
 
 ## Screenshots
-<img src='./assets/screenshots/home.jpeg' height=400 width=160>
+<img src='./assets/screenshots/home.jpeg' height=300 width=160 style="position: absolute">
 
-<img src='./assets/screenshots/track.jpeg' height=400 width=160>
+<img src='./assets/screenshots/track.jpeg' height=300 width=160 style="position: absolute">
 
-<img src='./assets/screenshots/side.jpeg' height=400 width=160>
+<img src='./assets/screenshots/side.jpeg' height=300 width=160 style="position: absolute">
 
-<img src='./assets/screenshots/about.jpeg' height=400 width=160>
+<img src='./assets/screenshots/about.jpeg' height=300 width=160 style="position: absolute">
 
