@@ -20,4 +20,4 @@ The main features of the app are as follows:
 
 <img src='./assets/screenshots/about.jpeg' height=300 width=160 style="position: absolute">
 
-<img src='./assets/screenshots/no-internet.jpeg' height=300 width=160 style="position: absolute">
+<img src='./assets/screenshots/no-internet.jpg' height=300 width=160 style="position: absolute">
