@@ -1,16 +1,19 @@
-# music_app
+# Music App
 
-A new Flutter project.
+A Music App for getting trending Songs along with their details and Lyrics.
 
-## Getting Started
+Musixmatch APIs are used for for the purpose of getting details and lyrics.
+The main features of the app are as follows:
 
-This project is a starting point for a Flutter application.
+- Get the list of trending songs from the musixmatch *charts.tracks.get* API.
+- Get the details of a selected track using the musixmatch *track.get* API.
+- Get the lyrics of the selected track using the musicmatch *track.lyrics* API.
+- Respond to the internet connection loss and show a 'No Internet' page.
+- The App is made using the **bloc pattern**.
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots
+![Home Screen](./assets/screenshots/home.jpeg)
+![Track](./assets/screenshots/track.jpeg)
+![Side Panel](./assets/screenshots/side.jpeg)
+![About](./assets/screenshots/about.jpeg)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
