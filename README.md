@@ -10,7 +10,11 @@ The main features of the app are as follows:
 - Get the lyrics of the selected track using the musicmatch *track.lyrics* API.
 - Respond to the internet connection loss and show a 'No Internet' page.
 - The App is made using the **bloc pattern**.
-
+## Setting this locally
+- Clone the repository.
+- Insert your API KEY, in [trackBLoC.dart](./lib/trackBLoC.dart) at `line 6`.<br />
+`const String API_KEY = 'YOUR_API_KEY_HERE';`
+- Run the app on emulator using `flutter run` in terminal.
 ## Screenshots
 <img src='./assets/screenshots/home.jpeg' height=300 width=160 style="position: absolute">
 
