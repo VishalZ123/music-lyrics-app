@@ -9,7 +9,7 @@ The main features of the app are as follows:
 - Get the details of a selected track using the musixmatch *track.get* API.
 - Get the lyrics of the selected track using the musicmatch *track.lyrics* API.
 - Respond to the internet connection loss and show a 'No Internet' page.
-- The App is made using the **bloc pattern**.
+- The App is made using the **BLoC pattern**.
 ## Setting this locally
 - Clone the repository.
 - Insert your API KEY, in [trackBLoC.dart](./lib/trackBLoC.dart) at `line 6`.<br />
