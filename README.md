@@ -1,6 +1,6 @@
-# Music App
+# Music Lyrics App
 
-A Music App for getting trending Songs along with their details and Lyrics.
+An App for getting trending Songs along with their details and Lyrics.
 
 Musixmatch APIs are used for for the purpose of getting details and lyrics.
 The main features of the app are as follows:
