@@ -32,9 +32,9 @@ Please note that you need to have a valid Musixmatch API key to use the app. If 
 ---
 ## Screenshots
 <div align='center'>
-<img src='./assets/screenshots/home.jpeg' height=300 width=160 style="position: absolute">
-<img src='./assets/screenshots/track.jpeg' height=300 width=160 style="position: absolute">
-<img src='./assets/screenshots/side.jpeg' height=300 width=160 style="position: absolute">
-<img src='./assets/screenshots/about.jpeg' height=300 width=160 style="position: absolute">
-<img src='./assets/screenshots/no-internet.jpg' height=300 width=160 style="position: absolute">
+<img src='./assets/screenshots/home.jpeg' height=320 width=160 style="position: absolute">
+<img src='./assets/screenshots/track.jpeg' height=320 width=160 style="position: absolute">
+<img src='./assets/screenshots/side.jpeg' height=320 width=160 style="position: absolute">
+<img src='./assets/screenshots/about.jpeg' height=320 width=160 style="position: absolute">
+<img src='./assets/screenshots/no-internet.jpg' height=320 width=160 style="position: absolute">
 </div>
