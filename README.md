@@ -27,7 +27,7 @@ To run the Music Lyrics App locally, follow these steps:
 6. Open a terminal or command prompt and navigate to the project directory.
 7. Run the app on an emulator using the command flutter run.
 
-Please note that you need to have a valid Musixmatch API key to use the app. If you don't have one, you can obtain it by signing up on the Musixmatch developer portal.
+Please note that you need to have a valid Musixmatch API key to use the app. If you don't have one, you can obtain it by signing up on the [Musixmatch developer portal](https://developer.musixmatch.com/).
 
 ---
 ## Screenshots
