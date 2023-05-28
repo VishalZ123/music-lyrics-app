@@ -1,12 +1,12 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:internet_connection_checker/internet_connection_checker.dart';
+import 'package:music_app/data_models.dart';
+import 'package:music_app/screens/track.dart';
+import 'package:music_app/trackBLoC.dart';
 
 import 'side_panel.dart';
 import 'no_internet.dart';
-import 'track.dart';
-import 'trackBLoC.dart';
-import 'data_models.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);

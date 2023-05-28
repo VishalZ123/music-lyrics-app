@@ -2,11 +2,10 @@ import 'dart:async';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:internet_connection_checker/internet_connection_checker.dart';
+import 'package:music_app/data_models.dart';
+import 'package:music_app/screens/no_internet.dart';
+import 'package:music_app/trackBLoC.dart';
 import 'package:url_launcher/url_launcher.dart';
-
-import 'no_internet.dart';
-import 'trackBLoC.dart';
-import 'data_models.dart';
 
 class Track extends StatefulWidget {
   final int trackId;
@@ -177,10 +176,10 @@ class _TrackState extends State<Track> {
                         } else if (snapshot.hasError) {
                           return Text('${snapshot.error}');
                         }
-                        return Center(
+                        return const Center(
                             child: Column(
                                 mainAxisAlignment: MainAxisAlignment.center,
-                                children: const [
+                                children: [
                               Text('Loading Lyrics'),
                               SizedBox(height: 30),
                               CircularProgressIndicator(),

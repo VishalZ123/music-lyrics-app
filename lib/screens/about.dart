@@ -1,54 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:url_launcher/url_launcher.dart';
-
-class SidePanel extends StatelessWidget {
-  const SidePanel({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Drawer(
-      backgroundColor: Colors.white,
-      child: ListView(
-        children: <Widget>[
-          ListTile(
-            leading: const Icon(
-              CupertinoIcons.info_circle_fill,
-              color: Colors.blue,
-              size: 30,
-            ),
-            title: const Text('About',
-                style: TextStyle(
-                  fontSize: 20,
-                  fontWeight: FontWeight.bold,
-                  color: Color.fromARGB(255, 255, 84, 86),
-                )),
-            onTap: () {
-              Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => const AboutPage(),
-                  ));
-            },
-          ),
-          ListTile(
-            trailing: Image.asset(
-              'assets/logo.jpg',
-              width: 170,
-            ),
-            subtitle: const Text(
-              'Powered by',
-              style: TextStyle(
-                fontSize: 15,
-                fontWeight: FontWeight.bold,
-              ),
-            ),
-          ),
-        ],
-      ),
-    );
-  }
-}
 
 class AboutPage extends StatelessWidget {
   const AboutPage({Key? key}) : super(key: key);
@@ -69,9 +20,9 @@ class AboutPage extends StatelessWidget {
                 padding: const EdgeInsets.all(20.0),
                 child: Column(children: [
                   const Text(
-                    'Music App\n\n'
+                    'Music Lyrics App\n\n'
                     'This app is made using Musixmatch APIs.\n\n'
-                    'The app just dislays the trending tracks of the day,\n\n'
+                    'The Music Lyrics App is an application that allows users to access trending songs along with their details and lyrics.,\n\n'
                     'Details about the tracks, and also the lyrics of the songs.\n\n'
                     'It also displays a "No Internet" page when the internet connection is lost.\n\n'
                     'The app is open source and can be found on GitHub at:\n\n',
